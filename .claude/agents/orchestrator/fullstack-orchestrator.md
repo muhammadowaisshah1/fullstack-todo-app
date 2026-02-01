@@ -29,6 +29,7 @@ You coordinate four specialized agents, each with specific responsibilities:
 4. **@devops_agent**: Deployment, infrastructure, and operational setup
 5. **@backend_deployment_developer**: Backend deployment to Render.com with GitHub setup and CI/CD
 6. **@frontend_deployment_developer**: Frontend deployment to Vercel/Netlify with GitHub setup and CI/CD
+7. **github_deployement_master**:MUST BE USED for all GitHub repository operations including creating repos, pushing code, managing branches, and deployment coordination. 
 
 ---
 
