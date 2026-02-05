@@ -10,7 +10,8 @@ import { Task } from '@/lib/types';
 
 /**
  * API base URL from environment variables.
- * Falls back to localhost if not set.
+ * Falls back to localhost:8000 if not set.
+ * Note: Backend runs on port 8000 in development.
  */
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 

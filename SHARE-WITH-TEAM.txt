@@ -1,0 +1,131 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 WHATSAPP/EMAIL MESSAGE (Copy-paste yeh message apne dost ko)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Hi! 👋
+
+Maine apna Full-Stack Todo App GitHub pe push kar diya hai. Tum isko clone karke apni machine pe run kar sakte ho.
+
+🔗 Repository: [YOUR_GITHUB_REPO_URL_HERE]
+
+📋 Setup karne ke liye yeh steps follow karo:
+
+1️⃣ **Prerequisites Install Karo:**
+   - Python 3.14+ (https://www.python.org/downloads/)
+   - Node.js 18.18+ (https://nodejs.org/)
+   - Git (https://git-scm.com/)
+
+2️⃣ **Project Clone Karo:**
+   ```
+   git clone [YOUR_GITHUB_REPO_URL_HERE]
+   cd Hackthon_Full-Stack_App
+   ```
+
+3️⃣ **Environment Files Setup:**
+   Repository mein 3 template files hain:
+   - `.env.template` (root directory)
+   - `backend/.env.template`
+   - `frontend/.env.local.template`
+
+   In templates ko copy karke actual .env files banao:
+   ```
+   copy .env.template .env
+   copy backend\.env.template backend\.env
+   copy frontend\.env.local.template frontend\.env.local
+   ```
+
+4️⃣ **Credentials Add Karo:**
+   Neeche diye gaye credentials ko apni .env files mein paste karo:
+
+   ═══════════════════════════════════════════════════════════════════════
+   🔐 CREDENTIALS (PRIVATE - Publicly share mat karna!)
+   ═══════════════════════════════════════════════════════════════════════
+
+   📁 ROOT .env FILE (Hackthon_Full-Stack_App/.env):
+   ───────────────────────────────────────────────────────────────────────
+   DATABASE_URL=postgresql+psycopg://neondb_owner:npg_JIVLmKzCs30W@ep-bold-surf-ah3dx6q5-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require
+
+   BETTER_AUTH_SECRET=UU0V8CQWto33dvA8n5QXLFaiG/pZqHfmM1rEqMUU76Q=
+
+   NEON_API_KEY=napi_rujvcpjk11bnh4ht7kajm26d8c5fn0wsd63lysgw7i6x5xku8uk6dte9z0w3e8vb
+
+   📁 BACKEND .env FILE (backend/.env):
+   ───────────────────────────────────────────────────────────────────────
+   DATABASE_URL=postgresql+psycopg://neondb_owner:npg_JIVLmKzCs30W@ep-bold-surf-ah3dx6q5-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require
+
+   BETTER_AUTH_SECRET=UU0V8CQWto33dvA8n5QXLFaiG/pZqHfmM1rEqMUU76Q=
+
+   (Baaki values already template mein hain - unko change nahi karna)
+
+   📁 FRONTEND .env.local FILE (frontend/.env.local):
+   ───────────────────────────────────────────────────────────────────────
+   NEXT_PUBLIC_API_URL=http://localhost:8001
+
+   (Yeh already template mein hai - koi change nahi chahiye)
+
+   ═══════════════════════════════════════════════════════════════════════
+
+5️⃣ **Dependencies Install Karo:**
+   ```
+   cd backend
+   pip install -r requirements.txt
+   cd ..
+
+   cd frontend
+   npm install
+   cd ..
+   ```
+
+6️⃣ **App Run Karo:**
+
+   **Option 1 (Easy):** Double-click `start-app.bat`
+
+   **Option 2 (Manual):**
+   Terminal 1:
+   ```
+   cd backend
+   python -m uvicorn main:app --host 0.0.0.0 --port 8001 --reload
+   ```
+
+   Terminal 2:
+   ```
+   cd frontend
+   npm run dev
+   ```
+
+7️⃣ **Browser Mein Open Karo:**
+   - Frontend: http://localhost:3000
+   - Backend API: http://localhost:8001/docs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📚 DETAILED GUIDES (Repository mein available hain)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. **SETUP-GUIDE-FOR-TEAM.md** - Complete detailed guide with troubleshooting
+2. **QUICK-SETUP-CHECKLIST.md** - Step-by-step checklist format
+3. **README.md** - Project overview and features
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚠️ IMPORTANT SECURITY NOTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔒 .env files ko KABHI GitHub pe push mat karna
+🔒 Credentials ko publicly share mat karna
+🔒 Yeh message delete kar dena setup ke baad
+🔒 Agar koi issue aaye toh mujhe batana
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ VERIFICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Agar sab kuch sahi se setup ho gaya toh:
+✅ http://localhost:3000 pe app dikhai degi
+✅ http://localhost:8001/docs pe API documentation milegi
+✅ Register/Login kar sakte ho
+✅ Tasks create kar sakte ho
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Agar koi problem aaye toh screenshot/error message bhejo!
+
+Happy Coding! 🚀
